@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export const Footer = () => {
     return (
         <>
@@ -11,9 +13,10 @@ export const Footer = () => {
                             <p className="font-[600] text-[16px] leading-[20px] font-inter w-[306px] text-[#4D4D4D]">Get the latest Artreus updates</p>
                             <div className="w-[335px] h-[44px] bg-[#2121211A] rounded-[12px] flex flex-row items-center">
                                 <input className="bg-transparent w-fit text-black h-[44px] px-4 focus:outline-none" placeholder="Your email" />
-                                <button className="bg-[#6039CF] w-[87px] h-[36px] rounded-[8px] flex flex-row items-center p-[8px_12px_8px_12px]">
+                                
+                                <button className="bg-[#6039CF] h-[36px] rounded-[8px] flex flex-row text-white items-center p-[8px_10px_8px_10px]">
                                     <p>I'm in</p>
-                                    <img src="/arrow-right.svg" alt="arrow-right" draggable={false} />
+                                    <img  src="/arrow-right.svg" alt="arrow-right" draggable={false} />
                                 </button>
                             </div>
                         </div>
@@ -33,38 +36,35 @@ export const Footer = () => {
 
 
 
-                    <div className="grid md:grid-cols-3 gap-4">
-                        <div className="flex flex-col gap-8">
-                            <p className="font-[600] text-[24px] leading-[32.4px] font-inter w-[302px] text-[#4D4D4D]">Marketplace</p>
-                            <ul className="flex flex-col gap-5">
-                                <li><a href="#explore" className="font-[400] text-[16px] leading-[21.92px] font-inter w-[302px] text-[#6039CF]">Explore</a></li>
-                                <li><a href="#blog" className="font-[400] text-[16px] leading-[21.92px] font-inter w-[302px] text-[#6039CF]">Blog</a></li>
-                                <li><a href="#how-it-works" className="font-[400] text-[16px] leading-[21.92px] font-inter w-[302px] text-[#6039CF]">How it works</a></li>
-                                <li><a href="#jobs" className="font-[400] text-[16px] leading-[21.92px] font-inter w-[302px] text-[#6039CF]">Jobs</a></li>
-                                <li><a href="#help" className="font-[400] text-[16px] leading-[21.92px] font-inter w-[302px] text-[#6039CF]">Help Center</a></li>
-                            </ul>
+                    <div className='mt-[17px]  flex space-x-[66px]'>
+                        <div className=''>
+                            <p className="font-semibold text-[24px] pb-[16px]">Dapp Store</p>
+                            <p className="font-medium  text-[16px] py-[13px]">Apps</p>
+                            <p className="font-medium  text-[16px] py-[13px]">Games</p>
+                            <Link target='_blank' href={'https://medium.com/@officialartreus'}>
+                                <p className="font-medium  text-[16px] py-[13px]">Blog</p>
+                            </Link>
+                            <Link target='_blank' href={'https://www.youtube.com/@ArtreusStore'}>
+                                <p className="font-medium  text-[16px] py-[13px]">How It Works</p>
+                            </Link>
+                            <Link target='_blank' href={'https://discord.gg/C4F6vqsy'}>
+                                <p className="font-medium  text-[16px] py-[13px]">Help Center</p>
+                            </Link>
+
                         </div>
-                        <div className="flex flex-col gap-8">
-                            <p className="font-[600] text-[24px] leading-[32.4px] font-inter w-[302px] text-[#4D4D4D]">Dapp Store</p>
-                            <ul className="flex flex-col gap-5">
-                                <li><a href="#apps" className="font-[400] text-[16px] leading-[21.92px] font-inter w-[302px] text-[#6039CF]">Apps</a></li>
-                                <li><a href="#games" className="font-[400] text-[16px] leading-[21.92px] font-inter w-[302px] text-[#6039CF]">Games</a></li>
-                                <li><a href="#blog" className="font-[400] text-[16px] leading-[21.92px] font-inter w-[302px] text-[#6039CF]">Blog</a></li>
-                                <li><a href="#jobs" className="font-[400] text-[16px] leading-[21.92px] font-inter w-[302px] text-[#6039CF]">Jobs</a></li>
-                                <li><a href="#help" className="font-[400] text-[16px] leading-[21.92px] font-inter w-[302px] text-[#6039CF]">Help Center</a></li>
-                            </ul>
+
+                        <div className='space-y-[26px]'>
+                            <p className="font-semibold text-[24px]">Creators</p>
+                            <p className="font-medium  text-[16px]">Quick start</p>
+                            <p className="font-medium  text-[16px]">JS SDK</p>
+                            <p className="font-medium  text-[16px]">UI Kit</p>
+                            <p className="font-medium  text-[16px]">The Graph</p>
+                            <p className="font-medium  text-[16px]">Resources</p>
+
                         </div>
-                        <div className="flex flex-col gap-8">
-                            <p className="font-[600] text-[24px] leading-[32.4px] font-inter text-[#4D4D4D]">Creators</p>
-                            <ul className="flex flex-col gap-5">
-                                <li><a href="#quick-start" className="font-[400] text-[16px] leading-[21.92px] font-inter w-[302px] text-[#6039CF]">Quick Start</a></li>
-                                <li><a href="#sdk" className="font-[400] text-[16px] leading-[21.92px] font-inter w-[302px] text-[#6039CF]">JS Sdk</a></li>
-                                <li><a href="#ui-kits" className="font-[400] text-[16px] leading-[21.92px] font-inter w-[302px] text-[#6039CF]">UI kits</a></li>
-                                <li><a href="#graph" className="font-[400] text-[16px] leading-[21.92px] font-inter w-[302px] text-[#6039CF]">The Graph</a></li>
-                                <li><a href="#resources" className="font-[400] text-[16px] leading-[21.92px] font-inter w-[302px] text-[#6039CF]">Resources</a></li>
-                            </ul>
-                        </div>
+
                     </div>
+
                 </div>
 
 

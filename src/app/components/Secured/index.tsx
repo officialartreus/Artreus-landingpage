@@ -133,7 +133,7 @@ export const Secured = () => {
 
             <div className="relative z-[999] h-[540px] flex flex-col justify-center items-center w-full mt-24 md:mt-0 overflow-hidden">
 
-                <p className="text-[#000000] font-lexend font-[400] text-[20px] md:text-[40px] leading-[23.42px] md:leading-[46.84px]">INTEGRATIONS SUPPORTED BY</p>
+                <p className="text-[#000000] font-lexend font-[400] text-[20px] md:text-[40px] uppercase leading-[23.42px] md:leading-[46.84px]">Integrated and supported by</p>
 
                 <div className="flex flex-col md:flex-row justify-center md:justify-between gap-6 items-center">
                     <img className="object-cover" src="/zetachain.svg" draggable={false} alt="star" />

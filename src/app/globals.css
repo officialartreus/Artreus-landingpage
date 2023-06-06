@@ -397,7 +397,7 @@ body {
 
 .faq {
   @apply w-full;
-  height: 755px;
+  height: fit-content;
   background: rgba(93, 80, 198, 0.9);
 }
 

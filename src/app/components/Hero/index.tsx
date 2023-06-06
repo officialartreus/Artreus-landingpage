@@ -13,7 +13,7 @@ export const Hero = () => {
                     </button>
                     <button className="button-dapp-outline">
                         <img src="/arrow-outline.svg" alt="arrow" className="w-[18.57px] h-[18.57px] md:w-[24px] md:h-[24px]" draggable={false} />
-                        <p>NFT Marketplace</p>
+                        <p>Schedule A Call</p>
                     </button>
                 </div>
                 <img className="absolute right-6 md:left-52 top-[240px] md:top-[180px] animate-bounce-slow-1" src="/image2.svg" alt="img" draggable={false} />

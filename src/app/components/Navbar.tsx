@@ -11,9 +11,9 @@ export const Navbar = () => {
 
 
                 <ul className="hidden md:flex flex-row justify-between items-center gap-3 text-[#252525]">
-                    <li className="text-[18px] leading-[21.78px] font-lexend"><a href="/marketplace">NFT Marketplace</a></li>
-                    <li className="text-[18px] leading-[21.78px]"><a href="/dapp">DappStore</a></li>
-                    <li className="text-[18px] leading-[21.78px]"><a href="/developers">Developers</a></li>
+                    <li className="text-[18px] leading-[21.78px] font-lexend"><a href="/marketplace">Sales</a></li>
+                    <li className="text-[18px] leading-[21.78px]"><a href="/dapp">Hackathon</a></li>
+                    <li className="text-[18px] leading-[21.78px]"><a href="/developers">Schedule A Call</a></li>
                 </ul>
 
 
