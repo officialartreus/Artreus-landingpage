@@ -5,7 +5,7 @@ export const Hero = () => {
         <>
             <div className="flex flex-col items-center overflow-hidden relative h-screen w-full bg-cover bg-no-repeat">
                 <div className="blur-1"></div>
-                <h1 className="hero-h1 text-black text-[24px] md:text-[48px] leading-[30px] md:leading-[60px] text-center w-[320px] md:w-[1050px]">DISCOVER & ENGAGE: ARTREUS, THE ULTIMATE WEB3 APP STORE</h1>
+                <h1 className="hero-h1 text-black text-[24px] md:text-[48px] leading-[30px] md:leading-[60px] text-center w-[320px] uppercase md:w-[1050px]">Welcome to the Decentralized Appstore: Unlocking the Future of App Distribution</h1>
                 <div className="flex flex-row justify-between items-center gap-3 mt-10">
                     <button className="button-dapp">
                         <img src="/arrow.svg" alt="arrow" className="w-[18.57px] h-[18.57px] md:w-[24px] md:h-[24px]" draggable={false} />
