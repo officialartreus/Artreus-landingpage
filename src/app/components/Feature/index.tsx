@@ -4,7 +4,7 @@
 export const Features = () => {
     return (
         <>
-            <div className="flex flex-col py-[30px] justify-center overflow-hidden items-center w-full h-[160vh]">
+            <div className="flex flex-col py-[30px] justify-center overflow-hidden items-center w-full h-[30vh]">
                 <div className="features-card flex flex-col justify-center items-center md:items-start gap-20 px-20">
                     <div className="flex flex-col-reverse md:flex-row justify-center md:justify-between items-center md:items-start">
                         <div className="text-black flex flex-col justify-center items-center gap-6">

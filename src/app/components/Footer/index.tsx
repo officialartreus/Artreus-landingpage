@@ -13,10 +13,10 @@ export const Footer = () => {
                             <p className="font-[600] text-[16px] leading-[20px] font-inter w-[306px] text-[#4D4D4D]">Get the latest Artreus updates</p>
                             <div className="w-[335px] h-[44px] bg-[#2121211A] rounded-[12px] flex flex-row items-center">
                                 <input className="bg-transparent w-fit text-black h-[44px] px-4 focus:outline-none" placeholder="Your email" />
-                                
+
                                 <button className="bg-[#6039CF] h-[36px] rounded-[8px] flex flex-row text-white items-center p-[8px_10px_8px_10px]">
                                     <p>I'm in</p>
-                                    <img  src="/arrow-right.svg" alt="arrow-right" draggable={false} />
+                                    <img src="/arrow-right.svg" alt="arrow-right" draggable={false} />
                                 </button>
                             </div>
                         </div>
@@ -26,7 +26,9 @@ export const Footer = () => {
                                 <img src="/twitter.svg" alt="twitter" draggable={false} />
                                 <img src="/instagram.svg" alt="instagram" draggable={false} />
                                 <img src="/discord.svg" alt="discord" draggable={false} />
-                                <img src="/telegram.svg" alt="telegram" draggable={false} />
+                                <Link href={'https://t.me/official_artreus'}>
+                                    <img src="/telegram.svg" alt="telegram" draggable={false} />
+                                </Link>
                                 <img src="/youtube.svg" alt="youtube" draggable={false} />
                             </div>
                         </div>

@@ -1,20 +1,20 @@
+import Link from "next/link";
 
 export const Nft = () => {
     const dapps = [{}, {}, {}, {}]
     return (
         <>
             <div className="flex flex-col relative justify-center items-center pb-10 gap-4 h-screen overflow-hidden">
-                <h1 className="hero-h1 text-black text-[20px] md:text-[40px] leading-[23.42px] text-center md:leading-[46.84px] w-[320px] md:w-[723px]">OWN YOUR APPLICATIONS AS NFTS</h1>
-                <p className="text-[#212121] font-inter font-[400] text-[15px] md:text-[16px] leading-[20.04px] text-center md:leading-[21.38px] w-[320px] md:w-[600px]">Users or developers should control how they use their application, users should be given the choice to develop an app or grow the app and sell it.</p>
+                <h1 className="hero-h1 text-black text-[20px] md:text-[40px] leading-[23.42px] text-center md:leading-[46.84px] w-[320px] md:w-[723px]">OWN YOUR DATA</h1>
+                <p className="text-[#212121] font-inter font-[400] text-[15px] md:text-[16px] leading-[20.04px] text-center md:leading-[21.38px] w-[320px] md:w-[600px]">UIn centralized appstores, users' personal data and app usage habits are often collected and shared with third parties without their consent, this often lead to data misuse. But on Artreus store, Users own their apps or game and the data in it.</p>
                 <div className="flex flex-row justify-between items-center gap-3 mt-4">
-                    <button className="button-dapp">
-                        <img src="/arrow.svg" alt="arrow" draggable={false} />
-                        <p>Open DappStore</p>
-                    </button>
-                    <button className="button-dapp-outline">
-                        <img src="/arrow-outline.svg" alt="arrow" draggable={false} />
-                        <p>NFT Marketplace</p>
-                    </button>
+                    <Link href={'https://dappstore.artreus.io'}>
+                        <button className="button-dapp">
+                            <img src="/arrow.svg" alt="arrow" draggable={false} />
+                            <p>Open DappStore</p>
+                        </button>
+                    </Link>
+
                 </div>
 
 
