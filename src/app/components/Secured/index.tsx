@@ -7,7 +7,7 @@ export const Secured = () => {
                 <div className="flex relative flex-col justify-center items-center h-fit pt-10">
                     <div className="flex flex-col justify-center items-center gap-5">
                         <h1 className="hero-h1 text-[#FFFFFF] text-[20px] md:text-[40px] text-center leading-[23.42px] md:leading-[46.84px] md:w-[723px]">SECURE YOUR APPLICATIONS</h1>
-                        <p className="text-[#FFFFFF] font-inter font-[400] text-[15px] md:text-[16px] leading-[20.04px] md:leading-[21.38px] text-center w-[300px] md:w-[597px]">A decentralized Appstore will offer greater security than a traditional Appstore as it would be built using smart contract and store in the blockchain.</p>
+                        <p className="text-[#FFFFFF] font-inter font-[400] text-[15px] md:text-[16px] leading-[20.04px] md:leading-[21.38px] text-center w-[300px] md:w-[597px]">The blockchain technology has enhance securing of digital assets. Its regarded as the most secured technology as at now. We have utilized this opportunity by improving the apps and games industry security by storing all apps, games and its data in the blockchain.</p>
                     </div>
 
                     <div className="card flex flex-row justify-start items-center overflow-x-hidden">

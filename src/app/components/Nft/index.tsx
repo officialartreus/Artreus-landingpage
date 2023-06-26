@@ -6,7 +6,7 @@ export const Nft = () => {
         <>
             <div className="flex flex-col relative justify-center items-center pb-10 gap-4 h-screen overflow-hidden">
                 <h1 className="hero-h1 text-black text-[20px] md:text-[40px] leading-[23.42px] text-center md:leading-[46.84px] w-[320px] md:w-[723px]">OWN YOUR DATA</h1>
-                <p className="text-[#212121] font-inter font-[400] text-[15px] md:text-[16px] leading-[20.04px] text-center md:leading-[21.38px] w-[320px] md:w-[600px]">UIn centralized appstores, users' personal data and app usage habits are often collected and shared with third parties without their consent, this often lead to data misuse. But on Artreus store, Users own their apps or game and the data in it.</p>
+                <p className="text-[#212121] font-inter font-[400] text-[15px] md:text-[16px] leading-[20.04px] text-center md:leading-[21.38px] w-[320px] md:w-[600px]">In centralized appstores, users' personal data and app usage habits are often collected and shared with third parties without their consent, this often lead to data misuse. But on Artreus store, Users own their apps or game and the data in it.</p>
                 <div className="flex flex-row justify-between items-center gap-3 mt-4">
                     <Link href={'https://dappstore.artreus.io'}>
                         <button className="button-dapp">

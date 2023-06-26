@@ -8,7 +8,7 @@ export const Hero = () => {
                 <div className="blur-1"></div>
                 <h1 className="hero-h1 text-black text-[24px] md:text-[48px] leading-[30px] md:leading-[60px] text-center w-[320px] uppercase md:w-[1050px]">Welcome to the Decentralized Appstore: Unlocking the Future of App Distribution</h1>
                 <div className="flex flex-row justify-between items-center gap-3 mt-10">
-                    <Link href={'https://dapstore.artreus.io'}>
+                    <Link href={'https://dappstore.artreus.io'}>
                         <button className="button-dapp">
                             <img src="/arrow.svg" alt="arrow" className="w-[18.57px] h-[18.57px] md:w-[24px] md:h-[24px]" draggable={false} />
                             <p>Open DappStore</p>
