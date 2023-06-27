@@ -18,7 +18,7 @@ export const Faqs = () => {
 
         {
             q: "What are the benefits of limiting supply in the appstore",
-            a: `Limiting supply brings several benefits: 
+            a: `Limiting supply brings several benefits: <br/>
             - Enhanced value and exclusivity for app owners. 
             - Incentives for developers to create high - quality, innovative apps. 
             - Increased user engagement and excitement due to the scarcity 

@@ -1,5 +1,4 @@
 import { lexend } from "@/utils/fonts"
-import Image from "next/image"
 import Link from "next/link"
 
 export const Hero = () => {
@@ -11,29 +10,29 @@ export const Hero = () => {
                 <div className="flex flex-row justify-between items-center gap-3 mt-10">
                     <Link href={'https://dappstore.artreus.io'}>
                         <button className="button-dapp">
-                            <Image src="/arrow.svg" alt="arrow" className="w-[18.57px] h-[18.57px] md:w-[24px] md:h-[24px]" draggable={false} />
+                            <img src="/arrow.svg" alt="arrow" className="w-[18.57px] h-[18.57px] md:w-[24px] md:h-[24px]" draggable={false} />
                             <p>Open DappStore</p>
                         </button>
                     </Link>
                     <Link href={'https://t.me/official_artreus'}>
                         <button className="button-dapp-outline">
-                            <Image src="/arrow-outline.svg" alt="arrow" className="w-[18.57px] h-[18.57px] md:w-[24px] md:h-[24px]" draggable={false} />
+                            <img src="/arrow-outline.svg" alt="arrow" className="w-[18.57px] h-[18.57px] md:w-[24px] md:h-[24px]" draggable={false} />
                             <p>Schedule A Call</p>
                         </button>
                     </Link>
                 </div>
-                <Image className="absolute right-6 md:left-52 top-[240px] md:top-[180px] animate-bounce-slow-1" src="/image2.svg" alt="Image" draggable={false} />
-                <Image className="absolute left-6 md:left-12 top-[490px] md:top-[320px] animate-bounce-slow-2" src="/image3.svg" alt="Image" draggable={false} />
-                <Image className="absolute left-6 md:left-80 top-[240px] md:top-[422px] animate-bounce-slow-3" src="/image4.svg" alt="Image" draggable={false} />
-                <Image className="absolute right-32 md:right-52 top-[360px] md:top-[180px] animate-bounce-slow-4" src="/image5.svg" alt="Image" draggable={false} />
-                <Image className="absolute right-5 md:right-80 top-[400px] md:top-[372px] animate-bounce-slow-5" src="/image6.svg" alt="Image" draggable={false} />
-                {/* <Image className="absolute left-4 top-[372px] object-contain" src="/glowbulbs.svg" alt="Image" draggable={false} /> */}
+                <img className="absolute right-6 md:left-52 top-[240px] md:top-[180px] animate-bounce-slow-1" src="/image2.svg" alt="img" draggable={false} />
+                <img className="absolute left-6 md:left-12 top-[490px] md:top-[320px] animate-bounce-slow-2" src="/image3.svg" alt="img" draggable={false} />
+                <img className="absolute left-6 md:left-80 top-[240px] md:top-[422px] animate-bounce-slow-3" src="/image4.svg" alt="img" draggable={false} />
+                <img className="absolute right-32 md:right-52 top-[360px] md:top-[180px] animate-bounce-slow-4" src="/image5.svg" alt="img" draggable={false} />
+                <img className="absolute right-5 md:right-80 top-[400px] md:top-[372px] animate-bounce-slow-5" src="/image6.svg" alt="img" draggable={false} />
+                {/* <img className="absolute left-4 top-[372px] object-contain" src="/glowbulbs.svg" alt="img" draggable={false} /> */}
                 {/* <div className="absolute left-3 top-[372px] animate-bounce-slow">
                     <div className="spell-circle"></div>
                     <div className="spell-stick"></div>
                 </div> */}
                 <div className="hidden md:flex flex-col justify-end items-end absolute top-[450px] ">
-                    <Image className="animate-bounce-slow" src="/star.svg" alt="Image" draggable={false} />
+                    <img className="animate-bounce-slow" src="/star.svg" alt="img" draggable={false} />
                 </div>
             </div>
         </>

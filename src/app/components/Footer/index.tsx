@@ -1,11 +1,11 @@
-import Image from "next/image"
+
 import Link from "next/link"
 
 export const Footer = () => {
     return (
         <>
             <div className="bg-white flex flex-col gap-20 w-full h-[1011px] md:h-[579px] px-5 md:px-20 py-20">
-                <Image src="/logo.png" className="w-[227px] h-[35px] object-contain" alt="logo" draggable={false} />
+                <img src="/logo.png" className="w-[227px] h-[35px] object-contain" alt="logo" draggable={false} />
 
 
                 <div className="flex flex-col md:flex-row gap-14 md:gap-40 w-full justify-start md:justify-between items-start md:items-center">
@@ -17,7 +17,7 @@ export const Footer = () => {
 
                                 <button className="bg-[#6039CF] h-[36px] rounded-[8px] flex flex-row text-white items-center p-[8px_10px_8px_10px]">
                                     <p>I'm in</p>
-                                    <Image src="/arrow-right.svg" alt="arrow-right" draggable={false} />
+                                    <img src="/arrow-right.svg" alt="arrow-right" draggable={false} />
                                 </button>
                             </div>
                         </div>
@@ -25,16 +25,16 @@ export const Footer = () => {
                             <p className="font-[600] text-[16px] leading-[20px] font-inter w-[302px] text-[#4D4D4D]">Join Artreus Community</p>
                             <div className="w-[335px] h-[44px] flex flex-row gap-4 items-center">
                                 <Link href={'https://discord.gg/C4F6vqsy'}>
-                                    <Image src="/discord.svg" alt="discord" draggable={false} />
+                                    <img src="/discord.svg" alt="discord" draggable={false} />
                                 </Link>
                                 <Link href={'https://www.youtube.com/@ArtreusStore'}>
-                                    <Image src="/youtube.svg" alt="youtube" draggable={false} />
+                                    <img src="/youtube.svg" alt="youtube" draggable={false} />
                                 </Link>
                                 <Link href={'https://twitter.com/OfficialArtreus'}>
-                                    <Image src="/twitter.svg" alt="twitter" draggable={false} />
+                                    <img src="/twitter.svg" alt="twitter" draggable={false} />
                                 </Link>
                                 <Link href={'https://t.me/official_artreus'}>
-                                    <Image src="/telegram.svg" alt="telegram" draggable={false} />
+                                    <img src="/telegram.svg" alt="telegram" draggable={false} />
                                 </Link>
                             </div>
                         </div>
@@ -79,7 +79,7 @@ export const Footer = () => {
                 {/*  */}
                 {/*  */}
                 <div className="flex flex-col items-center gap-2">
-                    <Image src="/break.svg" alt="break" />
+                    <img src="/break.svg" alt="break" />
                     <div className="flex flex-row items-center gap-8">
                         <p className="font-[400] text-[12px] leading-[15px] font-inter text-[#5D50C6]">Copyright 2022 Artreus.</p>
                         <p className="font-[400] text-[12px] leading-[15px] font-inter text-[#5D50C6]">All right reserved</p>

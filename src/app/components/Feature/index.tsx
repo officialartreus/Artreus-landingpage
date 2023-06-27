@@ -1,7 +1,5 @@
 // import strandleft fro
 
-import Image from "next/image"
-
 
 export const Features = () => {
     return (
@@ -14,39 +12,39 @@ export const Features = () => {
                             <p className="font-[400] text-[15px] leading-[20.04px] md:text-[16px] text-center md:leading-[21.38px] font-inter w-[334px] md:w-[464px]">Welcome to our decentralized appstore, where innovation meets freedom. We are revolutionizing the way applications are distributed, empowering developers and users with a transparent, secure, and inclusive platform. Say goodbye to centralized control and welcome a new era of decentralized app discovery and distribution..</p>
                             <div>
                                 <div className="flex flex-row justify-between items-center">
-                                    <Image className="mt-2" src="/tick.svg" alt="tick" draggable={false} />
+                                    <img className="mt-2" src="/tick.svg" alt="tick" draggable={false} />
                                     <p className="font-[400] text-[18px] leading-[21.78px] uppercase font-inter w-[241px] md:w-[464px]">fully autonomous system</p>
                                 </div>
                                 <div className="flex flex-row justify-between items-center">
-                                    <Image className="mt-2" src="/tick.svg" alt="tick" draggable={false} />
+                                    <img className="mt-2" src="/tick.svg" alt="tick" draggable={false} />
                                     <p className="font-[400] text-[18px] leading-[21.78px] uppercase font-inter w-[241px] md:w-[464px]">SECURITY & PRIVACY</p>
                                 </div>
                                 <div className="flex flex-row justify-between items-center">
-                                    <Image className="mt-2" src="/tick.svg" alt="tick" draggable={false} />
+                                    <img className="mt-2" src="/tick.svg" alt="tick" draggable={false} />
                                     <p className="font-[400] text-[18px] leading-[21.78px] uppercase font-inter w-[241px] md:w-[464px]">NO POP-UP ADS</p>
                                 </div>
                                 <div className="flex flex-row justify-between items-center">
-                                    <Image className="mt-2" src="/tick.svg" alt="tick" draggable={false} />
+                                    <img className="mt-2" src="/tick.svg" alt="tick" draggable={false} />
                                     <p className="font-[400] text-[18px] leading-[21.78px] uppercase font-inter w-[241px] md:w-[464px]">storage in the blockchain</p>
                                 </div>
                             </div>
                         </div>
 
                         <div className="md:w-[408px] md:h-[408px] w-[232.11px] h-[232.1px] flex flex-col justify-center items-center border-2 border-[#7766EF] rounded-full">
-                            <Image className="" src="/globe.svg" alt="globe" draggable={false} />
+                            <img className="" src="/globe.svg" alt="globe" draggable={false} />
                         </div>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-3 place-items-center w-full rounded-full">
                         <div className="flex flex-col justify-center items-center gap-4 text-black">
-                            <Image className="w-[143px] h-[144.23px]" src="/dapp.svg" alt="dapp" draggable={false} />
+                            <img className="w-[143px] h-[144.23px]" src="/dapp.svg" alt="dapp" draggable={false} />
                             <p className="font-[700] text-[20px] text-center leading-[24.2px] uppercase font-inter w-[255px]">decentralized Applications</p>
                         </div>
                         <div className="flex flex-col justify-center items-center gap-4 text-black">
-                            <Image className="w-[143px] h-[144.23px]" src="/secured.svg" alt="secured" draggable={false} />
+                            <img className="w-[143px] h-[144.23px]" src="/secured.svg" alt="secured" draggable={false} />
                             <p className="font-[700] text-[20px] text-center leading-[24.2px] uppercase font-inter w-[255px]">BLOCKCHAIN secured integrations</p>
                         </div>
                         <div className="flex flex-col justify-center items-center gap-4 text-black">
-                            <Image className="w-[143px] h-[144.23px]" src="/dapp.svg" alt="dapp" draggable={false} />
+                            <img className="w-[143px] h-[144.23px]" src="/dapp.svg" alt="dapp" draggable={false} />
                             <p className="font-[700] text-[20px] text-center leading-[24.2px] uppercase font-inter w-[255px]">Fully <br />
                                 transparent</p>
                         </div>

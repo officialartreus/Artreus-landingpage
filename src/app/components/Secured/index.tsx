@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export const Secured = () => {
     const dapps = [{}, {}, {}, {}];
     const rates = new Array(5).fill("");
@@ -15,7 +13,7 @@ export const Secured = () => {
                     <div className="card flex flex-row justify-start items-center overflow-x-hidden">
                         <div className="flex flex-col md:flex-row justify-start items-start md:justify-between md:items-center w-fit">
                             <div>
-                                <Image className="md:w-[168px] object-contain w-full" src="/full-dapp.svg" alt="full-dapp" draggable={false} />
+                                <img className="md:w-[168px] object-contain w-full" src="/full-dapp.svg" alt="full-dapp" draggable={false} />
                             </div>
                             <div className="sub-card">
                                 <div className="flex flex-row justify-between items-center md:w-[500px]">
@@ -25,11 +23,11 @@ export const Secured = () => {
                                     </div>
                                     <div className="flex flex-col gap-3 justify-center items-center">
                                         <div className="flex flex-row gap-3 justify-between items-center w-[113px]">
-                                            <Image src="/truck.svg" alt="truck" draggable={false} />
+                                            <img src="/truck.svg" alt="truck" draggable={false} />
                                             <p className="text-[#7A7A7A] font-inter font-[400] text-[14px] leading-[17.5px] text-left">{2555} Supply</p>
                                         </div>
                                         <div className="flex flex-row gap-3 justify-between items-center w-[113px]">
-                                            <Image src="/receive-square.svg" alt="receive-square" draggable={false} />
+                                            <img src="/receive-square.svg" alt="receive-square" draggable={false} />
                                             <p className="text-[#7A7A7A] font-inter font-[400] text-[14px] leading-[17.5px] text-left">{1000} Downloads</p>
                                         </div>
                                     </div>
@@ -42,14 +40,14 @@ export const Secured = () => {
                                         <div className="flex flex-col gap-1 justify-center items-center ">
                                             <div className="flex flex-row md:gap-3 justify-between items-center">
                                                 <p className="text-[#000000] font-inter font-[600] text-[32px] leading-[40px]">4.0</p>
-                                                <Image src="/stared.svg" alt="stared" draggable={false} />
+                                                <img src="/stared.svg" alt="stared" draggable={false} />
                                             </div>
                                             <p className="text-[#7A7A7A] font-inter font-[400] text-[16px] leading-[15px]">Average</p>
                                         </div>
                                         <div className="line"></div>
                                     </div>
                                     <div>
-                                        <Image src="/teen.svg" alt="teen" draggable={false} />
+                                        <img src="/teen.svg" alt="teen" draggable={false} />
                                     </div>
                                     <div className="flex flex-col gap-1 justify-start items-start">
                                         <p className="text-[#7A7A7A] font-inter font-[400] text-[12px] leading-[15px]">Diverse Content: discretion is advised</p>
@@ -60,7 +58,7 @@ export const Secured = () => {
                         </div>
                         <div className="flex flex-row justify-between items-center gap-2 relative left-[-78px] w-screen">
                             {dapps.map((dapp, i) => (
-                                <Image key={i} className="object-cover" src="/game-dapp.svg" draggable={false} alt="" />
+                                <img key={i} className="object-cover" src="/game-dapp.svg" draggable={false} alt="" />
                             ))}
                         </div>
 
@@ -87,7 +85,7 @@ export const Secured = () => {
                                         <h1 className="font-inter font-[700] text-[#F49354] text-[64px] leading-[75.14px]">4.0</h1>
                                         <div className="flex flex-row items-center gap-2 relative">
                                             {rates.map((rate, i) => (
-                                                <Image key={i} className="object-cover" src="/outlined-star.svg" draggable={false} alt="star" />
+                                                <img key={i} className="object-cover" src="/outlined-star.svg" draggable={false} alt="star" />
                                             ))}
                                         </div>
                                     </div>
@@ -98,7 +96,7 @@ export const Secured = () => {
                                             {rates.map((rate, i) => (
                                                 <div key={i} className="flex flex-row items-center gap-2 justify-between">
                                                     <p className="text-[#000000] font-inter font-[400] text-[12px] leading-[15px] text-left">{i + 1}</p>
-                                                    <Image className="object-cover w-[12px] h-[12px]" src="/stared.svg" draggable={false} alt="star" />
+                                                    <img className="object-cover w-[12px] h-[12px]" src="/stared.svg" draggable={false} alt="star" />
                                                     <div className="rate"></div>
                                                 </div>
                                             ))}
@@ -127,7 +125,7 @@ export const Secured = () => {
                             </div>
                         </div>
                     </div>
-                    <Image src="/sdapps.png" alt="sdapp" draggable={false} className="secured-sdapp opacity-[.5] absolute top-48" />
+                    <img src="/sdapps.png" alt="sdapp" draggable={false} className="secured-sdapp opacity-[.5] absolute top-48" />
                 </div>
             </div>
 
@@ -138,13 +136,13 @@ export const Secured = () => {
                 <p className="text-[#000000] font-lexend font-[400] text-[20px] md:text-[40px] uppercase leading-[23.42px] md:leading-[46.84px]">Integrated and supported by</p>
 
                 <div className="flex flex-col md:flex-row justify-center md:justify-between gap-6 items-center">
-                    <Image className="object-cover" src="/zetachain.svg" draggable={false} alt="star" />
-                    <Image className="object-cover" src="/Caduceus.svg" draggable={false} alt="star" />
-                    <Image className="object-cover" src="/near.svg" draggable={false} alt="star" />
+                    <img className="object-cover" src="/zetachain.svg" draggable={false} alt="star" />
+                    <img className="object-cover" src="/Caduceus.svg" draggable={false} alt="star" />
+                    <img className="object-cover" src="/near.svg" draggable={false} alt="star" />
                 </div>
 
-                <Image className="absolute -left-12 md:left-0 top-[35.18%]" src="/features-strands-left.svg" alt="features-strands-left" draggable={false} />
-                <Image className="absolute -right-12 md:right-0 top-[35.18%]" src="/feature-strand-right.svg" alt="feature-strand-right" draggable={false} />
+                <img className="absolute -left-12 md:left-0 top-[35.18%]" src="/features-strands-left.svg" alt="features-strands-left" draggable={false} />
+                <img className="absolute -right-12 md:right-0 top-[35.18%]" src="/feature-strand-right.svg" alt="feature-strand-right" draggable={false} />
             </div>
         </>
     )

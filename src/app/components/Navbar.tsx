@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react"
 
@@ -8,7 +7,7 @@ export const Navbar = () => {
     return (
         <>
             <div className="md:px-10 px-5 py-5 md:py-10 bg-transparent flex flex-row justify-between items-center">
-                <Image src="/logo.png" className="w-[121px] md:w-[227px] h-[26px] md:h-[35px] object-contain" alt="logo" draggable={false} />
+                <img src="/logo.png" className="w-[121px] md:w-[227px] h-[26px] md:h-[35px] object-contain" alt="logo" draggable={false} />
 
 
 
@@ -28,7 +27,7 @@ export const Navbar = () => {
                 <div className="hidden md:block">
                     <Link href={'https://dappstore.artreus.io'}>
                         <button className="button-dapp">
-                            <Image src="/arrow.svg" alt="arrow" draggable={false} />
+                            <img src="/arrow.svg" alt="arrow" draggable={false} />
                             <p>Open DappStore</p>
                         </button>
                     </Link>
@@ -36,16 +35,16 @@ export const Navbar = () => {
 
                 <div className="block md:hidden">
                     <button onClick={() => setOpen(!open)} className="">
-                        <Image src="/bar.svg" alt="bar" draggable={false} />
+                        <img src="/bar.svg" alt="bar" draggable={false} />
                     </button>
                 </div>
             </div>
             {open && <div className="w-screen absolute top-0 h-[663px] px-3 py-4 block md:hidden z-[9999] bg-[#EBF0FAF2]">
                 <div className="flex flex-row justify-between items-center md:hidden">
-                    <Image src="/logo.png" className="w-[121px] md:w-[227px] h-[26px] md:h-[35px] object-contain" alt="logo" draggable={false} />
+                    <img src="/logo.png" className="w-[121px] md:w-[227px] h-[26px] md:h-[35px] object-contain" alt="logo" draggable={false} />
 
                     <button onClick={() => setOpen(!open)} className="">
-                        <Image src="/cancel.svg" alt="cancel" draggable={false} />
+                        <img src="/cancel.svg" alt="cancel" draggable={false} />
                     </button>
                 </div>
                 <ul className="flex flex-col items-start gap-4 mt-10">
