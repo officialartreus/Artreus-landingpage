@@ -18,7 +18,7 @@ export const Faqs = () => {
 
         {
             q: "What are the benefits of limiting supply in the appstore",
-            a: `Limiting supply brings several benefits: <br/>
+            a: `Limiting supply brings several benefits: 
             - Enhanced value and exclusivity for app owners. 
             - Incentives for developers to create high - quality, innovative apps. 
             - Increased user engagement and excitement due to the scarcity 
@@ -82,17 +82,17 @@ export const Faqs = () => {
 
                         const [show, setshow] = useState('hidden')
 
-                        return <div key={i} className="bg-[#FACFFF] p-[10px] rounded-[8px] w-[362px] md:w-[698px]  justify-center md:justify-between items-center">
-                            <div className="flex flex-col md:flex-row justify-center md:justify-between items-center">
+                        return <div key={i} className="bg-[#FACFFF] p-[10px] rounded-[8px] w-[450px] md:w-[698px]  justify-center md:justify-between items-center">
+                            <div className="flex  md:flex-row justify-between items-center">
                                 <p className="text-[#000] font-opensans font-[400] text-[16px] md:text-[20px] leading-[21.79px] md:leading-[27.24px]">{faq.q}</p>
-                                
-                            <button onClick={() => {
-                                setshow(prev => prev == 'hidden' ? 'flex' : 'hidden')
-                            }}>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 hidden md:block text-black">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
-                                </svg>
-                            </button>
+
+                                <button className="flex" onClick={() => {
+                                    setshow(prev => prev == 'hidden' ? 'flex' : 'hidden')
+                                }}>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-black">
+                                        <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                                    </svg>
+                                </button>
                             </div>
                             <p className={`${show} mt-[8px]`}>{faq.a}</p>
 

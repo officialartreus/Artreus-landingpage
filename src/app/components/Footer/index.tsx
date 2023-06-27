@@ -23,13 +23,18 @@ export const Footer = () => {
                         <div className="flex flex-col gap-4 mt-5 md:mt-10">
                             <p className="font-[600] text-[16px] leading-[20px] font-inter w-[302px] text-[#4D4D4D]">Join Artreus Community</p>
                             <div className="w-[335px] h-[44px] flex flex-row gap-4 items-center">
-                                <img src="/twitter.svg" alt="twitter" draggable={false} />
-                                <img src="/instagram.svg" alt="instagram" draggable={false} />
-                                <img src="/discord.svg" alt="discord" draggable={false} />
+                                <Link href={'https://discord.gg/C4F6vqsy'}>
+                                    <img src="/discord.svg" alt="discord" draggable={false} />
+                                </Link>
+                                <Link href={'https://www.youtube.com/@ArtreusStore'}>
+                                    <img src="/youtube.svg" alt="youtube" draggable={false} />
+                                </Link>
+                                <Link href={'https://twitter.com/OfficialArtreus'}>
+                                    <img src="/twitter.svg" alt="twitter" draggable={false} />
+                                </Link>
                                 <Link href={'https://t.me/official_artreus'}>
                                     <img src="/telegram.svg" alt="telegram" draggable={false} />
                                 </Link>
-                                <img src="/youtube.svg" alt="youtube" draggable={false} />
                             </div>
                         </div>
                     </div>
