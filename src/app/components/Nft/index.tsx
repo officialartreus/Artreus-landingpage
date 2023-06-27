@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export const Nft = () => {
@@ -10,7 +11,7 @@ export const Nft = () => {
                 <div className="flex flex-row justify-between items-center gap-3 mt-4">
                     <Link href={'https://dappstore.artreus.io'}>
                         <button className="button-dapp">
-                            <img src="/arrow.svg" alt="arrow" draggable={false} />
+                            <Image src="/arrow.svg" alt="arrow" draggable={false} />
                             <p>Open DappStore</p>
                         </button>
                     </Link>
@@ -23,15 +24,15 @@ export const Nft = () => {
                         <Card key={i}>
                             <div className="flex flex-col justify-center items-start z-[100]">
                                 <div className="flex flex-row justify-between items-center">
-                                    <img className="pt-4 w-[80px] h-[80px] object-cover" src="/dapp-logo.svg" draggable={false} alt="" />
+                                    <Image className="pt-4 w-[80px] h-[80px] object-cover" src="/dapp-logo.svg" draggable={false} alt="" />
                                     <div className="flex flex-col justify-center items-center">
                                         <p className="font-[600] text-[20px] leading-[25px] font-inter w-[91px] text-[#4D4D4D]">Minecraft</p>
-                                        <img draggable={false} className="" src="/rates.svg" alt="" />
+                                        <Image draggable={false} className="" src="/rates.svg" alt="" />
                                     </div>
                                 </div>
                                 <div className="flex flex-row justify-between gap-4 items-center">
-                                    <img draggable={false} className="" src="/dapp-image.svg" alt="" />
-                                    <img draggable={false} className="" src="/dapp-image.svg" alt="" />
+                                    <Image draggable={false} className="" src="/dapp-image.svg" alt="" />
+                                    <Image draggable={false} className="" src="/dapp-image.svg" alt="" />
                                 </div>
                             </div>
                         </Card>

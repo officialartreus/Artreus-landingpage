@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export const CommunityNFT = () => {
     return (
         <>
@@ -9,12 +11,12 @@ export const CommunityNFT = () => {
                                 Community backed NFTs</h1>
                             <p className="text-white text-left md:text-center font-lexend font-normal w-fit md:w-[464px] text-[15px] md:text-[16px] leading-[20.04px] md:leading-[21.38px]">buy, sell and earn community trusted nfts on the artreus store.</p>
                             <button className="button-dapp-nft">
-                                <img src="/shop.svg" alt="shop" />
+                                <Image src="/shop.svg" alt="shop" />
                                 <p>Buy NFTs</p>
                             </button>
                         </div>
                         <div className="w-[219px] md:w-[333px] h-[208px] md:h-[317px] absolute -left-5 top-[289px] md:top-0 md:bottom-0 md:relative">
-                            <img className="mt-2" src="/head.svg" alt="head" draggable={false} />
+                            <Image src="/head.svg" alt="head" draggable={false} />
                         </div>
                     </div>
 
